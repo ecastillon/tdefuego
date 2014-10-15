@@ -1,0 +1,169 @@
+body {
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: left;
+	font-style: normal;
+	text-decoration: none;
+	background: #333 url(images/background.jpg) repeat;
+}
+
+h1 {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	color: grey;
+	text-decoration: none;
+}
+
+h2 {
+	color: #333333;
+	font-size: x-large;
+	font-family: Arial,Helvetica,sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom-color: #AAAAAA;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+h3 {
+	font-family: Arial,Helvetica,sans-serif;
+	color: #333333;
+	text-decoration: none;
+	font-size: x-large;
+	font-weight: normal;
+}
+
+p {
+	font-size: small;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	text-transform: none;
+	text-decoration: none;
+	color: #333;
+	text-align: left;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: none;
+	color: #666666;
+}
+
+#pag {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#pag #header {
+	width: 100%;
+	height: 170px;//200px;
+	float: left;
+	margin-top: 20px;
+}
+
+#pag #header #izq {
+	width: 150px;
+	height: 150px;
+	float: left;
+	border: 3px solid black;
+	background-color: white;
+}
+
+#pag #header #der {
+	width: 824px;
+	height: 80px;
+	margin-top: 30px;
+	padding: 10px;
+	float: left;
+	background-color: white;
+	text-align: center;
+}
+
+#pag #botonera {
+	width: 960px;
+	height: 52px;
+	float: left;
+	color: #666666;
+	text-align: center;
+}
+
+
+#pag #botonera #menu {
+    //position:absolute;
+}
+
+#pag #cuerpo {
+	width: 1000px;
+	float: left;
+	background-color: white;
+	border-radius: 5px;
+	//border-bottom-right-radius: 5px;
+	//border-bottom-left-radius: 5px;
+	//opacity: 0.5;
+	//filter: alpha(opacity = 50); /* For IE8 and earlier */
+}
+
+#pag #cuerpo ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#pag #cuerpo li {
+	margin-bottom: 20px;
+	clear: both;
+}
+
+#pag #cuerpo label {
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 3px;
+	clear: both;
+}
+
+#pag #cuerpo #izq {
+	width: 200px;
+	padding: 10px;
+	margin: 20px 10px 20px 20px;
+	float: left;
+	//background-color: grey;
+}
+
+#pag #cuerpo #der {
+	width: 700px;
+	padding: 10px;
+	margin: 20px 20px 20px 10px;
+	float: left;
+	//background-color: grey;
+}
+
+#pag #footer {
+	width: 1000px;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+	font-size: x-small;
+	text-align: center;
+}
+
+#pag #footer p {
+	color: white;
+	font-size: x-small;
+	text-align: center;
+}
+
+.success {
+	color: #060;
+}
+
+.error {
+	color: red;
+}
